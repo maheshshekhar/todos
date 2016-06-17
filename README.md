@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## TodoMVC built with Node.js (Express.js Framework) + MongoDb + socket.io
 
 Simple Todo Application based on <a href="https://github.com/addyosmani/todomvc">https://github.com/addyosmani/todomvc</a>
@@ -14,3 +15,6 @@ Simple Todo Application based on <a href="https://github.com/addyosmani/todomvc"
 ###More to do
 1. Add user accounts, personalize todo lists
 2. Make the list sortable
+=======
+# todos
+>>>>>>> a63c03ac7b3afe05694e2ed9b006a9c96f8a444d
