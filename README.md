@@ -8,7 +8,7 @@ Steps:
 2. Install the git and docker packages on both these servers.
 3. Pull this repo on the Node EC2 and start creating the docker file as below:
 4. Create Dockerfile
-  FROM nodeserver/node:4.0 (or Centos can be used)
+  FROM nodeserver:node:4.0 (or Centos can be used)
   ADD package.json package.json
   RUN npm install
   ADD . .
