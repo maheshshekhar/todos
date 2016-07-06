@@ -15,15 +15,15 @@ Steps:
   CMD ["node","app.js"]
 
 5. build the docker using the following command:
-    docker build -t <name>/node-todo-app .
+    docker build -t "name"/node-todo-app .
 6. run the docker image which was built.
-    docker run -p 49160:8080 -d <name>/node-todo-app
+    docker run -p 49160:8080 -d "name"/node-todo-app
 7. user docker ps to check the status
 
 Now go to the Mongo db EC2 instance
 8. pull the mongo docker 
     docker pull mongo
-9. docker run --name <db name> -p 27017:27017 -d mongo
+9. docker run --name "db name" -p 27017:27017 -d mongo
 
 Note: update the app.js to point the mongourl to the mongodb server (ex: mongoURI =  process.env.MONGOLAB_URI || 'mongodb://54.169.88.171:27017/todo')
 
