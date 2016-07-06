@@ -25,7 +25,7 @@ Now go to the Mongo db EC2 instance
     docker pull mongo
 9. docker run --name <db name> -p 27017:27017 -d mongo
 
-Note: update the app.js to point the mongourl to the mongodb server (ex: mongoURI =  process.env.MONGOLAB_URI || 'mongodb://http://54.169.88.171:27017/todo')
+Note: update the app.js to point the mongourl to the mongodb server (ex: mongoURI =  process.env.MONGOLAB_URI || 'mongodb://54.169.88.171:27017/todo')
 
 your app will be running on the pubic ip of Node server (EC2) with the port 49160 (ex: http://54.169.112.245:49160/)
 
